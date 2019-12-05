@@ -26,7 +26,7 @@ Done! point your browser to http://localhost:8080.
 1. Deploy the dashboard:
 
 ```
-kubectl apply -f address
+kubectl apply -f https://raw.githubusercontent.com/yaron2/dapr-ui/master/deploy/dashboard.yaml
 ```
 
 Wait until the dashboard pod is in Running state:
