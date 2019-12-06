@@ -12,8 +12,9 @@ The Dapr Dashboard is a web-based UI for Dapr, allowing users to see information
 
 First, make sure you have [Go](https://golang.org/dl/) installed.
 
-
 ```
+mkdir -p $GOPATH/src/github.com/yaron2
+cd $GOPATH/src/github.com/yaron2
 git clone git@github.com:yaron2/dapr-ui.git
 cd dapr-ui
 go run main.go
